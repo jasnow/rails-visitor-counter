@@ -1,5 +1,5 @@
 class VisitorsController < ApplicationController
-  before_action :set_visitor, only: %i[ show edit update destroy ]
+  before_action :set_visitor, only: %i[show edit update destroy]
 
   # GET /visitors or /visitors.json
   def index
@@ -9,7 +9,7 @@ class VisitorsController < ApplicationController
       counter: (@visitor.counter || 0) + (params[:count] || 1).to_i
     )
 
-    @visitor.broadcast_replace_later_to 'counter', partial: 'visitors/counter'
+    @visitor.broadcast_replace_later_to "counter", partial: "visitors/counter"
   end
 
   # GET /visitors/1 or /visitors/1.json
@@ -64,13 +64,14 @@ class VisitorsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_visitor
-      @visitor = Visitor.find(params[:id])
-    end
 
-    # Only allow a list of trusted parameters through.
-    def visitor_params
-      params.require(:visitor).permit(:counter)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_visitor
+    @visitor = Visitor.find(params[:id])
+  end
+
+  # Only allow a list of trusted parameters through.
+  def visitor_params
+    params.require(:visitor).permit(:counter)
+  end
 end
