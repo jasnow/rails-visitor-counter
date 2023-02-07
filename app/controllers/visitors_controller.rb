@@ -1,6 +1,8 @@
 class VisitorsController < ApplicationController
   before_action :set_visitor, only: %i[show edit update destroy]
 
+  protect_from_forgery with: :exception
+
   # GET /visitors or /visitors.json
   def index
     @visitor = Visitor.find_or_create_by(id: 1)
