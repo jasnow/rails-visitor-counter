@@ -1,3 +1,5 @@
+[![Easy "Ruby on Rails CI"](https://github.com/jasnow/DVGM/actions/workflows/rubyonrails.yml/badge.svg)](https://github.com/jasnow/DVGM/actions/workflows/rubyonrails.yml)
+
 # Introduction
 
 The context is that fly.io’s approach of every framework uses a Dockerfile and a toml file is great for system administrators, polyglots, and Rails developers who are comfortable with Dockerfiles, or at least Debian. What that leaves behind is Rails developers who spend most of their time in an IDE on Macs or Windows; which frankly is most of them.
