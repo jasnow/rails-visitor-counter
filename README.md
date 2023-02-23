@@ -1,4 +1,4 @@
-[![Easy "Ruby on Rails CI"](https://github.com/jasnow/DVGM/actions/workflows/rubyonrails.yml/badge.svg)](https://github.com/jasnow/DVGM/actions/workflows/rubyonrails.yml)
+[![Easy "Ruby on Rails CI"](https://github.com/jasnow/rails-visitor-counter/actions/workflows/rubyonrails.yml/badge.svg)](https://github.com/jasnow/rails-visitor-counter/actions/workflows/rubyonrails.yml)
 
 # Introduction
 
