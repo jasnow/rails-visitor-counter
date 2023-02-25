@@ -54,7 +54,7 @@ gem "bootsnap", require: false
 group :development, :test do
   gem "standard"
   gem "ruby_audit"
-#HID  gem "spektr"
+#  gem "spektr" # 2/25/2023: Commented this gem b/c it was building GH-A.
   gem 'simplecov'
 end
 
