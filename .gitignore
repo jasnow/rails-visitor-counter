@@ -29,6 +29,7 @@ coverage
 /tmp/storage/*
 !/tmp/storage/
 !/tmp/storage/.keep
+node_modules/
 
 /public/assets
 
