@@ -1,5 +1,5 @@
 require 'simplecov'
-SimpleCov.start 'rails' do
+SimpleCov.start do
   enable_coverage :branch
   primary_coverage :branch
 end

@@ -54,7 +54,7 @@ gem "bootsnap", require: false
 group :development, :test do
   gem "standard"
   gem "ruby_audit"
-  gem "spektr"
+  #HID: gem "spektr" # 3/4/2023: spektr/iss#10
   gem 'simplecov'
 end
 
