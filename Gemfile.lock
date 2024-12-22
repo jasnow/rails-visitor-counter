@@ -109,7 +109,7 @@ GEM
       tilt
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
-    importmap-rails (2.0.3)
+    importmap-rails (2.1.0)
       actionpack (>= 6.0.0)
       activesupport (>= 6.0.0)
       railties (>= 6.0.0)
@@ -138,7 +138,7 @@ GEM
     mini_portile2 (2.8.8)
     minitest (5.25.4)
     msgpack (1.7.5)
-    net-imap (0.5.2)
+    net-imap (0.5.3)
       date
       net-protocol
     net-pop (0.1.2)
